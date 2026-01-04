@@ -9,15 +9,16 @@ Highlights
 - Localized strings in `assets/language` (English + Arabic)
 - Ready for Android and iOS builds
 
+
 Tech stack
 - Flutter & Dart
 - Basic REST client for product data under `lib/data/api`
 
-Quick Start
 
 Prerequisites
 - Install Flutter: https://flutter.dev/docs/get-started/install
 - Ensure Android SDK / Xcode are installed for respective platforms
+
 
 Clone and run
 
@@ -28,6 +29,7 @@ flutter pub get
 flutter run
 ```
 
+
 Run on specific device/emulator
 
 ```bash
@@ -35,11 +37,13 @@ flutter devices
 flutter run -d <device-id>
 ```
 
+
 Run tests
 
 ```bash
 flutter test
 ```
+
 
 Project structure (important files)
 - [pubspec.yaml](pubspec.yaml) — app metadata, assets & dependencies
@@ -48,6 +52,7 @@ Project structure (important files)
 - [lib/controllers](lib/base/controllers) — app controllers (state)
 - [lib/data/api](lib/data/api) — API client and repository code
 - [assets/language](assets/language) — translations
+
 
 Personalization & suggestions (make this project look like yours)
 
@@ -83,8 +88,3 @@ Development notes
 - The app uses simple controller classes under `lib/base/controllers` that manage cart and products. Look at `cart_controller.dart` and `popular_product_controller.dart` to understand data flow.
 - API client and repository pattern: `lib/data/api/api_client.dart` and repos under `lib/data/repository`.
 
-
-Contact
-- If you want, add your name, email, and a short bio here so visitors know who built it.
-
-Thank you for checking out this project — make it yours!
