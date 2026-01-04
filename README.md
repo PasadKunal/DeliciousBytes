@@ -83,17 +83,4 @@ Development notes
 - The app uses simple controller classes under `lib/base/controllers` that manage cart and products. Look at `cart_controller.dart` and `popular_product_controller.dart` to understand data flow.
 - API client and repository pattern: `lib/data/api/api_client.dart` and repos under `lib/data/repository`.
 
-Where to add screenshots
-- Create `assets/image/screenshots/` and add device-sized PNGs. Then reference them from this README and the `pubspec.yaml` assets list.
-
-Suggested next repo improvements (prioritized)
-1. Add `LICENSE` (MIT) and `CONTRIBUTING.md` with PR guidelines.
-2. Add `.github/workflows/flutter.yml` to run `flutter analyze` and `flutter test`.
-3. Add CI badge to this `README.md` once CI is configured.
-4. Add sample screenshots and a short demo GIF.
-5. Replace demo data with real API or mocked JSON fixtures under `assets/` for reproducible demos.
-
-Contact
-- If you want, add your name, email, and a short bio here so visitors know who built it.
-
 Thank you for checking out this project — make it yours!
